@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  biolink-app:
+    container_name: biolink-container
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      # Format: "Port-di-Host : Port-di-Container"
+      # Anda bisa mengubah port 8080 sesuai keinginan (misal: "80:80")
+      - "8080:80" 
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production

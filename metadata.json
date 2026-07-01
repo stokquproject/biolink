@@ -1,0 +1,6 @@
+{
+  "name": "BioLink Template",
+  "description": "A 100% free, fast, and customizable open-source link-in-bio template.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
